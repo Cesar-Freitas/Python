@@ -1,0 +1,7 @@
+print("=="*10, "\n  !!LIQUIDA TUDO!!\n" + "=="*10)
+d = float(input(" Digite em quantos\n por cento haverá\n desconto: "))
+print("--"*10)
+pi = float(input("PREÇO S/ DESCONTO: "))
+# print(f"Com o desconto de {d:.2f} %, o novo preço será de {pi-(pi*(d/100)):.2f} R$")
+pf = pi - (pi*(d/100))
+print("Com o desconto de {} %, o novo preço será de {:.2f} R$".format(d, pf))

@@ -1,0 +1,5 @@
+print("="*30, "\n     \033[4:35mSISTEMA DE MÉDIAS\033[m\n" + "="*30)
+n1 = float(input("Digite a primeira nota: "))
+n2 = float(input("Digite a segunda nota: "))
+# print("="*30, "\nA média entre as duas notas é {}".format((n1+n2)/2))
+print("="*30 + f"\nA média entre \033[1:36m{n1}\033[m e \033[1:37m{n2}\033[m é {((n1+n2)/2):.1f}")
