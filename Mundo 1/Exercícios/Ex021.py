@@ -9,6 +9,7 @@ import emoji
 # -------------------------------------------------------------------
 pygame.mixer.init()
 pygame.init()
+# A linha abaixo deve conter o nome do seu arquivo de áudio
 pygame.mixer.music.load("PeryCreep_-_lofi_chill_music.mp3")
 pygame.mixer.music.play()
 pygame.mixer.music.set_volume(2)
