@@ -1,0 +1,8 @@
+n = input("Digite algo: ")
+print("\033[7:35:43mO tipo primitivo é do que foi digitado é\033[m:", type(n))
+print("\033[4:36mSó tem espaços?\033[m", n.isspace())
+print("\033[1:33mÉ um número?\033[m", n.isnumeric())
+print("\033[1:30mÉ alfanumérico?\033[m", n.isalnum())
+print("\033[7:40:31mEstá em maiúsculo?\033[m", n.isupper())
+print("\033[1:35mEstá em minúsculo?\033[m", n.islower())
+print("\033[1:34:46mEstá capitalizada?\033[m", n.istitle())
